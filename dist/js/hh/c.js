@@ -1,0 +1,1 @@
+function function_name(){console.log("fffff")}function function_name(){console.log("fffff")}function function_name(){console.log("fffff")}function_name(),function_name(),function_name();
