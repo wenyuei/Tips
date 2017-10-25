@@ -16,6 +16,8 @@ var cssnano = require('gulp-cssnano');
 // 引入sass预编译
 var sass = require('gulp-sass');
 
+var imgs = require('gulp-imagemin');
+
 
 
 // *****浏览器同步
@@ -41,7 +43,7 @@ gulp.task('html',function(){
 // 第二个任务是用来压缩js
 gulp.task('js',function(){
     // 找到所有的js文件,不同级目录也能找到
-    gulp.src('src/js/**/*.js')
+    gulp.src('src/js/*.js')
     .pipe(plumber())
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
@@ -52,7 +54,7 @@ gulp.task('js',function(){
 });
 // 第三个任务css
 gulp.task('style',function(){
-    gulp.src('src/css/**/*.scss')
+    gulp.src('src/css/*.scss')
     .pipe(sass().on('error', sass.logError))
     // .pipe(cssnano())
     .pipe(gulp.dest('dist/css'))
@@ -62,12 +64,15 @@ gulp.task('style',function(){
     }))
 });
 
-// // 第四个任务,图片压缩
-// gulp.task('imgs',function(){
-//     gulp.src('src/images/*.jpg')
-//     .pipe(imgmin())
-//     .pipe(gulp.dest('dist/images'))
-// });
+// 第四个任务,图片压缩
+gulp.task('imgs',function(){
+    gulp.src('src/images/*.*')
+    .pipe(imgs())
+    .pipe(gulp.dest('dist/images'))
+    .pipe(browserSync.reload({
+        stream:true
+    }))
+});
 
 
 // 第五个任务,浏览器自动刷新
@@ -86,11 +91,12 @@ gulp.task('servers',function(){
     gulp.watch('src/*.html',['html']);
     gulp.watch('src/js/**/*.js',['js']);
     gulp.watch('src/css/*.scss',['style']);
+    gulp.watch('src/images/*.*',['imgs']);
 });
 
 // 使用一条命令执行所有任务
 // *****
-gulp.task('default',['servers','html','js','style']);
+gulp.task('default',['servers','html','js','style','imgs']);
 
 
 
