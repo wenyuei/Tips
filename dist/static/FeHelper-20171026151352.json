@@ -1,0 +1,98 @@
+{
+    "error_code": 0,
+    "result": "ok",
+    "data": [
+        {
+            "type": "bbs",
+            "position": "p1",
+            "data": {
+                "id": "2696972",
+                "subject": "澳之尽头，塔心深处——塔斯马尼亚11日环岛自驾",
+                "pic": "https://pic1.qyer.com/album/user/2140/46/Q0hRQh4BYkg/index/275x185",
+                "username": "西西里_Amy",
+                "href": "http://bbs.qyer.com/thread-2696972-1.html",
+                "views": "42124",
+                "type": "游记"
+            }
+        },
+        {
+            "type": "lm",
+            "position": "p2",
+            "data": {
+                "id": "72769",
+                "subject": "[拒签全退][元旦]北京/天津直飞日本东京/大阪/名古屋/札幌/冲绳5-10天特价机票(2人起订,赠5天WiFi)",
+                "pic": "http://pic.qyer.com/lastminute/library/2014/12/26/1419561733/275x185",
+                "href": "http://z.qyer.com/deal/72769/",
+                "price": "<em>1458</em>元起",
+                "start_pos": "北京,天津"
+            }
+        },
+        {
+            "type": "bbs",
+            "position": "p3",
+            "data": {
+                "id": "2574735",
+                "subject": "挪威 • 挪威的峡湾 森林 和夏天 • 微话唠向指南+好多好多图片",
+                "pic": "https://pic.qyer.com/album/user/1262/37/QEtTQBkAaEg/index/275x185",
+                "username": "mintyfish",
+                "href": "http://bbs.qyer.com/thread-2574735-1.html",
+                "views": "77407",
+                "type": "游记"
+            }
+        },
+        {
+            "position": "p4",
+            "type": "login"
+        },
+        {
+            "type": "lm",
+            "position": "p5",
+            "data": {
+                "id": "71055",
+                "subject": "[元旦][圣诞]上海直飞芽庄5-6天往返含税机票",
+                "pic": "https://pic.qyer.com/public/lastmin/supproduct/2017/08/07/15020924585597/275x185",
+                "href": "http://z.qyer.com/deal/71055/",
+                "price": "<em>1699</em>元起",
+                "start_pos": "上海"
+            }
+        },
+        {
+            "type": "mguide",
+            "position": "p6",
+            "data": {
+                "id": "7077",
+                "subject": "旧金山湾区十大油画般风情小镇",
+                "pic": "https://pic.qyer.com/album/user/2072/73/Q0lSQB0EZkA/index/275x185",
+                "username": "走四方旅游网",
+                "href": "http://place.qyer.com/mguide/7077",
+                "item_count": "10"
+            }
+        },
+        {
+            "type": "bbs",
+            "position": "p7",
+            "data": {
+                "id": "1117559",
+                "subject": "【完】凝望世界流动|初遇京都15件小事——用美图讲述最新鲜的京都记忆",
+                "pic": "https://pic1.qyer.com/album/user/1166/18/QEhTRBsPY0E/index/275x185",
+                "username": "Charray",
+                "href": "http://bbs.qyer.com/thread-1117559-1.html",
+                "views": "58984",
+                "type": "游记"
+            }
+        },
+        {
+            "type": "bbs",
+            "position": "p8",
+            "data": {
+                "id": "2622737",
+                "subject": "【飞越加拿大，一场与秋天的艳遇】——枫叶国12日逐秋之旅",
+                "pic": "https://pic1.qyer.com/album/user/1971/13/QEBSQxsEaUw/index/275x185",
+                "username": "sophiee",
+                "href": "http://bbs.qyer.com/thread-2622737-1.html",
+                "views": "74010",
+                "type": "游记"
+            }
+        }
+    ]
+}

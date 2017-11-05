@@ -1,0 +1,1 @@
+require.config({paths:{jQuery:"../libs/jquery"}}),require(["jQuery"],function(e){console.log($)});
